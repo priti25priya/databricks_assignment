@@ -2,7 +2,6 @@
 from pyspark.sql import SparkSession
 
 from databricks_assignment.src.Assignment1.source_to_bronze import utils
-
 spark = SparkSession.builder.appName("EmployeeSourceToBronze").getOrCreate()
 
 
