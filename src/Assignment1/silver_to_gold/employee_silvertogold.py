@@ -1,7 +1,6 @@
 #1.
 
 from pyspark.sql import SparkSession
-
 spark = SparkSession.builder.appName("EmployeeSilverToGold").getOrCreate()
 
 # Define the path to the Delta table in the silver layer
